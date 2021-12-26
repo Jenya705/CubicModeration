@@ -1,0 +1,16 @@
+# Materials which will be notified on breaking
+notifyBreak: [
+    "DIAMOND_ORE",
+    "DEEPSLATE_DIAMOND_ORE",
+    "ANCIENT_DEBRIS",
+    "CHEST",
+    "BARREL"
+]
+
+# Material which will be notified on placing
+notifyPlace: [
+    "TNT",
+    "FIRE"
+]
+
+moderationModeGroup: "moderator"

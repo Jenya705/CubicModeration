@@ -1,0 +1,15 @@
+name: CubicModeration
+version: '${version}'
+main: com.github.jenya705.cubicore.moderation.CubicModeration
+api-version: 1.18
+authors: [ Jenya705 ]
+depend: [LuckPerms]
+description: Easy moderation plugin for cubic
+commands:
+  moderation:
+    aliases: [mod]
+    permission: cubicore.moderation
+    description: Main command for cubicore moderation module
+permissions:
+  cubicore.moderation:
+    default: op
